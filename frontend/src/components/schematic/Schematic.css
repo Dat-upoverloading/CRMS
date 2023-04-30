@@ -1,0 +1,75 @@
+.schematic {
+	/* this is needed or the background will be offset by a few pixels at the top */
+	overflow: auto;
+	position: relative;
+}
+
+.schematic::before {
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: -1;
+
+	display: block;
+	background-image: url("https://preview.redd.it/qmk09ie6sbc71.png?width=1080&crop=smart&auto=webp&v=enabled&s=eb768912b167fb866b74c51eb7b706c68b1a7050");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	filter: brightness(40%);
+}
+
+.search-bar[type="text"] {
+	padding: 10px;
+	height: 20px;
+	width: 100%;
+	outline: none;
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+	color: white;
+}
+
+.search-bar::placeholder {
+	background-color: transparent;
+}
+
+.search-bar-container {
+	margin: auto;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	background-color: rgba(20, 20, 20, 0.8);
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.schematic-container {
+	display: flex;
+	margin: 20px;
+}
+
+.schematic-preview {
+	width: 170px;
+	border: 3px solid rgb(20, 20, 20);
+	overflow: hidden;
+	border-radius: 5px;
+	margin: 3px;
+}
+
+.schematic-img {
+	width: 170px;
+	height: 170px;
+	border-bottom: 3px solid rgb(20, 20, 20);
+}
+
+.schematic-description {
+	color: white;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

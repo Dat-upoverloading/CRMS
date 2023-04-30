@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MindustryToolApplication<mindustry tool>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "mindustrytool.MindustryToolApplication",
+            "projectName": "mindustry tool",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59670 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=mindustry tool"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MindustryToolApplication<MindustryTool>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "mindustrytool.MindustryToolApplication",
+            "projectName": "MindustryTool",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+.toggle-button-active {
+	background-color: blue;
+	border: none;
+	border-radius: 20px;
+	display: flex;
+}
+
+.toggle-button-inactive {
+	background-color: white;
+	border-radius: 20px;
+	border: none;
+	display: flex;
+}
+
+.dropdown-button-active {
+	background-color: blue;
+	border-radius: 20px;
+	border: none;
+	display: flex;
+}
+
+.dropdown-button-inactive {
+	background-color: white;
+	border-radius: 20px;
+	border: none;
+	display: flex;
+}
