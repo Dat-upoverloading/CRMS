@@ -1,7 +1,9 @@
 import React from "react";
 
-const Sidebar = () => {
-	return <div className="sidebar"></div>;
+import "./Sidebar.css";
+
+const Icon = ({ children }) => {
+	return <div className="icon">{children}</div>;
 };
 
-export default Sidebar;
+export default Icon;

@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<CRMS>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "api.Application",
+            "projectName": "CRMS",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<MindustryTool>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "api.Application",
+            "projectName": "MindustryTool",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

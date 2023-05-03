@@ -1,0 +1,27 @@
+.customer-holder {
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.customer-container {
+	padding: 20px;
+}
+
+.customer {
+	width: 100%;
+}
+
+.customer-form-button-container {
+	display: flex;
+	margin: 10px;
+	justify-content: right;
+	padding: 10px;
+}
+
+.customer-form-button {
+	border-radius: 5px;
+	background-color: gray;
+	padding: 5px;
+	color: white;
+	font-size: 14px;
+}
